@@ -63,12 +63,12 @@ public class Main {
     static class Roman {
         static String[] romanArray = new String[]{ "0","I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII",
                 "XIII", "XIV", "XV","XVI","XVII","XVIII","XIX","XX","XXI","XXII","XXIII","XXIV","XXV","XXVI","XXVII","XXVIII",
-                "XXIX","XXX", "XXXI","XXXII","XXXIII","XXXIV","XXXV","XXXVI","XXXVII","XXXVIII","XXXIX","XXXX","XXXXI","XXXXII",
-                "XXXXIII","XXXXIV","XXXXV","XXXXVI","XXXXVII","XXXXVIII","XXXXIX","L","LI","LII","LIII","LIV","LV","LVI",
+                "XXIX","XXX", "XXXI","XXXII","XXXIII","XXXIV","XXXV","XXXVI","XXXVII","XXXVIII","XXXIX","XL","XLI","XLII",
+                "XLIII","XLIV","XLV","XLVI","XLVII","XLVIII","XLIX","L","LI","LII","LIII","LIV","LV","LVI",
                 "LVII","LVIII","LVIX","LX","LXI","LXII","LXIII","LXIV","LXV","LXVI","LXVII","LXVIII","LXIX","LXX","LXXI",
                 "LXXII","LXXIII","LXXIV","LXXV","LXXVI","LXXVII","LXXVIII","LXXIX","LXXX","LXXXI","LXXXII","LXXXIII","LXXXIV",
-                "LXXXV","LXXXVI","LXXXVII","LXXXVIII","LXXXXIX","LXXXX","LXXXXI","LXXXXII","LXXXXIII","LXXXXIV","LXXXXV",
-                "LXXXXVI","LXXXXVII","LXXXXVIII","LXXXXIX","C"};//Массив Римских цифр до 100
+                "LXXXV","LXXXVI","LXXXVII","LXXXVIII","LCIX","XC","XCI","XCII","XCIII","XCIV","XCV",
+                "XCVI","XCII","XCVIII","XCIX","C"};//Массив Римских цифр до 100
         public static boolean isRoman(String value){
             for(int i = 0; i< romanArray.length; i++){
                 if(value.equals(romanArray[i])) {
