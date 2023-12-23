@@ -67,7 +67,7 @@ public class Main {
                 "XLIII","XLIV","XLV","XLVI","XLVII","XLVIII","XLIX","L","LI","LII","LIII","LIV","LV","LVI",
                 "LVII","LVIII","LVIX","LX","LXI","LXII","LXIII","LXIV","LXV","LXVI","LXVII","LXVIII","LXIX","LXX","LXXI",
                 "LXXII","LXXIII","LXXIV","LXXV","LXXVI","LXXVII","LXXVIII","LXXIX","LXXX","LXXXI","LXXXII","LXXXIII","LXXXIV",
-                "LXXXV","LXXXVI","LXXXVII","LXXXVIII","LCIX","XC","XCI","XCII","XCIII","XCIV","XCV",
+                "LXXXV","LXXXVI","LXXXVII","LXXXVIII","LXXXIX","XC","XCI","XCII","XCIII","XCIV","XCV",
                 "XCVI","XCII","XCVIII","XCIX","C"};//Массив Римских цифр до 100
         public static boolean isRoman(String value){
             for(int i = 0; i< romanArray.length; i++){
